@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>鎰威科技前端面試考題</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <!-- 區塊一 介紹-->
+      <div class="intro">
+        <div class="intro__banner">
+          <img src="images/白色海浪.png" />
+        </div>
+        <div class="wrap">
+          <h2>There is no one</h2>
+          <h3>who loves pain</h3>
+          <a href="#form">FORM</a>
+          <article class="intro__content">
+            <div class="intro__content__top-sup">
+              <div>
+                <img class="sup1" src="images/sup1.svg" />
+                <img class="paddle" src="images/paddle.svg" />
+              </div>
+            </div>
+            <section class="intro__content__txt">
+              <div class="intro__content__txt__title">
+                <h5>paragraph</h5>
+              </div>
+              <ol>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+              </ol>
+            </section>
+            <section class="intro__content__txt">
+              <div class="intro__content__txt__title">
+                <h5>paragraph</h5>
+              </div>
+              <ol>
+                <li>
+                  Quisque sodales leo <strong> vitae vulputate auctor.</strong>
+                </li>
+                <li>
+                  Proin ac justo ut nisl tincidunt imperdiet.Maecenas viverra
+                  libero a pellentesque blandit.
+                </li>
+                <li>
+                  Cras tristique tellus id leo bibendum, eu dapibus nisl
+                  accumsan.
+                </li>
+                <li>
+                  Donec ultrices sapien <b>vitae leo venenatis ullamcorper.</b>
+                </li>
+              </ol>
+            </section>
+            <div class="intro__content__bottom-sup">
+              <div>
+                <img class="sup2" src="images/sup2.svg" />
+                <img class="fireworks" src="images/fireworks.svg" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="intro__bottom__bg-wrapper">
+        <div class="intro__bottom__bg"></div>
+      </div>
+      <!-- 區塊二 表單-->
+      <form action="#" class="form" id="form">
+        <div class="wrap">
+          <div class="form__panel">
+            <div class="form__panel__title">
+              <span>FORM</span>
+            </div>
+            <div class="form__panel__item">
+              <label for="store">store <span>*</span></label>
+              <div class="form__panel__item-store">
+                <input
+                  id="store"
+                  name="stores"
+                  type="text"
+                  list="stores"
+                  placeholder="placeholder text"
+                />
+                <datalist id="stores">
+                  <option value="store1"></option>
+                  <option value="store2"></option>
+                  <option value="store3"></option>
+                  <option value="store4"></option>
+                  <option value="store5"></option>
+                </datalist>
+                <span><img src="images/drop-down.svg" /></span>
+              </div>
+              <div class="form__panel__item__error"></div>
+            </div>
+            <div class="form__panel__item">
+              <label for="customer-name">name <span>*</span></label>
+              <input
+                id="customer-name"
+                name="customer-name"
+                type="text"
+                placeholder="placeholder text"
+              />
+              <div class="form__panel__item__error"></div>
+            </div>
+            <div class="form__panel__item">
+              <label for="customer-phone">phone <span>*</span></label>
+              <input
+                id="customer-phone"
+                name="customer-phone"
+                type="tel"
+                placeholder="placeholder text"
+              />
+              <div class="form__panel__item__error"></div>
+            </div>
+            <div class="form__panel__item">
+              <label for="consumption-amount"
+                >Amount of consumption <span>*</span></label
+              >
+              <input
+                id="consumption-amount"
+                name="consumption-amount"
+                type="number"
+                placeholder="placeholder text"
+                min="0"
+              />
+              <div class="form__panel__item__error"></div>
+            </div>
+            <div class="form__panel__item">
+              <label for="payment">payment <span>*</span></label>
+              <select id="payment" name="payment">
+                <option>digital payment</option>
+                <option>ATM</option>
+              </select>
+              <span><img src="images/drop-down.svg" /></span>
+              <div class="form__panel__item__error"></div>
+            </div>
+          </div>
+          <div class="form__footer">
+            <button class="form__footer__btn" type="submit">
+              <img />
+              <span class="form__footer__btn-text"> submit </span>
+            </button>
+            <div class="form__footer__error"></div>
+          </div>
+        </div>
+      </form>
+      <!-- 區塊三 排名-->
+      <div class="lottery">
+        <div class="lottery__list">
+          <div class="wrap">
+            <ul class="lottery__list__ranking">
+              <li class="lottery__list__ranking__item">
+                <div><span>A</span></div>
+                <div><span>ONE</span></div>
+                <h5>dehumidifier</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>B</span></div>
+                <div><span>ONE</span></div>
+                <h5>range hood</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>C</span></div>
+                <div><span>ONE</span></div>
+                <h5>vacuum cleaner</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>D</span></div>
+                <div><span>ONE</span></div>
+                <h5>toaster</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>E</span></div>
+                <div><span>ONE</span></div>
+                <h5>scale</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>F</span></div>
+                <div><span>ONE</span></div>
+                <h5>straightening iron</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>G</span></div>
+                <div><span>FIVE</span></div>
+                <h5>vacuum cleaner</h5>
+              </li>
+              <li class="lottery__list__ranking__item">
+                <div><span>H</span></div>
+                <div><span>TEN</span></div>
+                <h5>rice cooker</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="lottery__bottom">
+          <div class="wrap">
+            <div>
+              <div class="lottery__bottom__txt">
+                <span>13.32</span>
+                <p>
+                  who seeks after it and<br />
+                  wants to have it
+                </p>
+              </div>
+              <div class="lottery__bottom__img">
+                <img src="images/lighthouse.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 區塊四 -->
+      <div class="store">
+        <div class="wrap">
+          <h4>Neque porro quisquam <br />est qui dolorem!</h4>
+          <img src="images/market.svg" />
+        </div>
+      </div>
+    </main>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/style.js"></script>
+  </body>
+</html>

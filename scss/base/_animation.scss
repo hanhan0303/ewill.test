@@ -1,0 +1,100 @@
+@keyframes bubble1 {
+  0% {
+    top: 20px;
+    opacity: 0.1;
+  }
+
+  50% {
+    top: 0px;
+    left: 35px;
+    opacity: 1;
+  }
+
+  100% {
+    top: -20px;
+    opacity: 1;
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    top: 3px;
+    opacity: 0.1;
+  }
+
+  50% {
+    top: -17px;
+    left: 55px;
+    opacity: 1;
+  }
+
+  100% {
+    top: -40px;
+    opacity: 1;
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-15deg)
+  }
+
+  100% {
+    transform: rotate(15deg)
+  }
+}
+
+@keyframes scale-up-fade-out {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0.1;
+  }
+}
+
+@keyframes wave-move {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-1564px);
+  }
+}
+
+@keyframes sway-turtle {
+  0% {
+    transform: translate(0px, 0px) rotate(-5deg);
+  }
+
+  50% {
+    transform: translate(-5px, 0px) rotate(-15deg);
+  }
+
+  100% {
+    transform: translate(-10px, -10px) rotate(-5deg);
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

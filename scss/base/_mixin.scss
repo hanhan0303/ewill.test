@@ -1,0 +1,89 @@
+/*字體大小設定start*/
+
+@mixin font-size-700-18px {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@mixin font-size-700-20px {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+@mixin font-size-700-28px {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@mixin font-size-700-32px {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@mixin font-size-400-16px {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/*字體大小設定end*/
+
+
+/*RWD設定-media*/
+@mixin pc {
+  @media(max-width: $breakpoint-pc) {
+    @content;
+  }
+}
+
+@mixin pad {
+  @media(max-width: $breakpoint-pad) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media(max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+/*RWD-end*/
+
+/*其他常用功能*/
+@mixin text-hide {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-nowrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin bg-center {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

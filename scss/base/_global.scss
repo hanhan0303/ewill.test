@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  /* Prevent adjustments of font size after orientation changes in iOS. */
+  scroll-behavior: smooth;
+}
+
+a {
+  background-color: transparent;
+  /* Remove the gray background on active links in IE 10. */
+  text-decoration: none;
+}
+
+img {
+  border-style: none;
+  /*  Remove the border on images inside links in IE 10. */
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 1920px;
+  margin: 0px auto;
+  font-family: "Noto Sans TC", sans-serif;
+}
