@@ -47,7 +47,7 @@
 }
 
 @mixin pad-630px {
-  @media(max-width: $breakpoint-630px) {
+  @media(max-width: $breakpoint-pad-630px) {
     @content;
   }
 }
