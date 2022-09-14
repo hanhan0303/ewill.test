@@ -177,13 +177,14 @@ main {
         display: block;
         text-align: center;
         margin: 32.5px 0 24.5px;
+        color: $primary-color1;
 
         h5 {
           display: inline-block;
           position: relative;
           text-align: center;
           @include font-size-700-18px;
-          color: $primary-color1;
+
 
 
           &::before,
