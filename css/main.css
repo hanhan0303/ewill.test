@@ -451,6 +451,7 @@ main {
   display: block;
   text-align: center;
   margin: 32.5px 0 24.5px;
+  color: #204379;
 }
 .intro__content__txt__title h5 {
   display: inline-block;
@@ -459,7 +460,6 @@ main {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.25;
-  color: #204379;
 }
 .intro__content__txt__title h5::before, .intro__content__txt__title h5::after {
   content: url("../../images/cactus.svg");
@@ -739,6 +739,11 @@ main {
 @media (max-width: 768px) {
   .lottery__list__ranking {
     max-width: 630px;
+  }
+}
+@media (max-width: 630px) {
+  .lottery__list__ranking {
+    justify-content: center;
   }
 }
 @media (max-width: 415px) {
