@@ -478,6 +478,10 @@ main {
         max-width: 630px;
       }
 
+      @include pad-630px {
+        justify-content: center;
+      }
+
       @include mobile {
         max-width: 388px;
       }

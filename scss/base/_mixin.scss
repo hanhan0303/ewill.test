@@ -46,6 +46,12 @@
   }
 }
 
+@mixin pad-630px {
+  @media(max-width: $breakpoint-630px) {
+    @content;
+  }
+}
+
 @mixin mobile {
   @media(max-width: $breakpoint-mobile) {
     @content;
