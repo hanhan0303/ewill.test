@@ -173,11 +173,13 @@ main {
     }
 
     &__txt {
+      color: $primary-color1;
+
       &__title {
         display: block;
         text-align: center;
         margin: 32.5px 0 24.5px;
-        color: $primary-color1;
+
 
         h5 {
           display: inline-block;
@@ -208,6 +210,15 @@ main {
         list-style-type: decimal;
         @include font-size-400-16px;
         padding-left: 24px;
+
+        strong {
+          font-weight: 700;
+          text-decoration: underline;
+        }
+
+        b {
+          font-weight: 700;
+        }
       }
 
       &:first-of-type {
