@@ -11,13 +11,35 @@
     <main>
       <!-- 區塊一 介紹-->
       <div class="intro">
-        <div class="intro__banner">
-          <img src="images/白色海浪.png" />
-        </div>
+        <nav>
+          <input type="checkbox" id="nav-toggler" />
+          <label for="nav-toggler">
+            <div class="hamburger-container">
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+          <div class="nav__items">
+            <ul>
+              <li>
+                <a href="#"> 注意事項</a>
+              </li>
+              <li>
+                <a href="#form"> 資料填寫</a>
+              </li>
+              <li>
+                <a href="#lottery"> 抽獎資訊</a>
+              </li>
+              <li>
+                <a href="#shopping"> 前往商城</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <div class="wrap">
           <h2>There is no one</h2>
           <h3>who loves pain</h3>
-          <a href="#form">FORM</a>
+          <a href="#form" class="intro__btn">FORM</a>
           <article class="intro__content">
             <div class="intro__content__top-sup">
               <div>
@@ -149,7 +171,7 @@
         </div>
       </form>
       <!-- 區塊三 排名-->
-      <div class="lottery">
+      <div class="lottery" id="lottery">
         <div class="lottery__list">
           <div class="wrap">
             <ul class="lottery__list__ranking">
@@ -216,13 +238,18 @@
         </div>
       </div>
       <!-- 區塊四 -->
-      <div class="store">
+      <div class="store" id="shopping">
         <div class="wrap">
           <h4>Neque porro quisquam <br />est qui dolorem!</h4>
           <img src="images/market.svg" />
         </div>
       </div>
+      <i class="fa-solid fa-circle-up go-top"></i>
     </main>
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/e4bfe886c9.js"
+    ></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/style.js"></script>
   </body>

@@ -100,9 +100,23 @@ function addRule(input, validator) {
   });
 }
 
-//取得wrap的高度並放入intro內
-$(window).on('resize', function () {
-  var $wrapHeight = $('.intro .wrap').outerHeight(true);
-  const $intro = $('.intro');
-  $intro.css('height', $wrapHeight);
+//go-top按鈕
+$('document').ready(function () {
+  function showBtnCondition() {
+    if ($(this).scrollTop() > 1500) {
+      $('.go-top').fadeIn();
+    } else {
+      $('.go-top').fadeOut();
+    }
+  }
+  $(window).scroll(showBtnCondition);
+  $('.go-top').click(function (event) {
+    event.preventDefault();
+    $('html,body').animate(
+      {
+        scrollTop: 0,
+      },
+      1000,
+    );
+  });
 });
