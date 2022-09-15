@@ -92,10 +92,11 @@ function addRule(input, validator) {
     const error = validator(value);
 
     if (error) {
-      $(this).css('border', '3px solid #E06D6D');
+      $(this).addClass('error-style');
       $error.text(error);
     } else {
       $error.text('');
+      $(this).removeClass('error-style');
     }
   });
 }

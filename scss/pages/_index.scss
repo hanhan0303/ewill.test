@@ -15,6 +15,7 @@ main {
       font-size: 36px;
     }
   }
+
 }
 
 .intro {
@@ -464,6 +465,10 @@ main {
         &:focus {
           border: 3px solid #93BBF9;
           outline: 0;
+        }
+
+        &.error-style {
+          border: 3px solid #E06D6D;
         }
       }
 

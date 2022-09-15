@@ -737,6 +737,9 @@ main i.go-top {
   border: 3px solid #93BBF9;
   outline: 0;
 }
+.form__panel__item input.error-style {
+  border: 3px solid #E06D6D;
+}
 .form__panel__item select {
   font-size: 16px;
   font-weight: 400;
