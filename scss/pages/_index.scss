@@ -22,6 +22,10 @@ main {
   background: $primary-color1 url("../../images/白色海浪.svg") no-repeat top 47.64px left -1693.38px / 4784.16px 586.11px;
   @include flex-center;
 
+  @include mobile {
+    background: $primary-color1 url("../../images/白色海浪.svg") no-repeat top 49.64px left -500.76px / 1414.74px 739.11px;
+  }
+
   nav {
     display: none;
 

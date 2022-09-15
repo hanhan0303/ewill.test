@@ -287,6 +287,11 @@ main i.go-top {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 415px) {
+  .intro {
+    background: #204379 url("../../images/白色海浪.svg") no-repeat top 49.64px left -500.76px/1414.74px 739.11px;
+  }
+}
 .intro nav {
   display: none;
 }
