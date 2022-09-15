@@ -44,7 +44,7 @@ addRule('#consumption-amount', function (value) {
   if (value.trim() === '') {
     return 'required';
   }
-  if (Number(value) <= 0) {
+  if (Number(value) < 0) {
     return 'wrong format';
   }
 });
