@@ -319,7 +319,7 @@ main {
 
     &__item {
       position: relative;
-      margin: 20px;
+      margin: 20px 0px;
 
       label {
         @include font-size-400-16px;
@@ -540,13 +540,14 @@ main {
             background: $text-color10;
             border: 1px solid $primary-color7;
             border-radius: 50px;
-            width: 45px;
-            height: 23px;
-            padding: 3px 10px;
+            padding: 3px 0;
+            text-align: center;
             font-size: 12px;
             font-weight: 400;
             line-height: 1.4;
             color: $primary-color7;
+            width: 45px;
+            height: 23px;
           }
         }
 

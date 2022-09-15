@@ -40,7 +40,7 @@ addRule('#customer-phone', function (value) {
 });
 
 //Consumption amount
-addRule('#customer-amount', function (value) {
+addRule('#consumption-amount', function (value) {
   if (value.trim() === '') {
     return 'required';
   }
@@ -92,6 +92,7 @@ function addRule(input, validator) {
     const error = validator(value);
 
     if (error) {
+      $(this).css('border', '3px solid #E06D6D');
       $error.text(error);
     } else {
       $error.text('');
